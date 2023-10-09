@@ -33,7 +33,7 @@ MTN icon/logo somewhere beside the form field)
 
 ## Contributors
 
-- [James Oyindamola]@Oyindamolajames)
+- [James Oyindamola](@Oyindamolajames)
 - [Kehinde Oyeronke Osoba](@Kenmillionaire)
 - [Akpotobore Odjuwuederhie](@derhieakpos)
 - [Obadaki Emmanuel](@Gudnuel)
