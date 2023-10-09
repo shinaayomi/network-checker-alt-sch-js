@@ -35,7 +35,7 @@ MTN icon/logo somewhere beside the form field)
 
 - [James Oyindamola]@Oyindamolajames)
 - [Kehinde Oyeronke Osoba](@Kenmillionaire)
-- [Akpotobore Odjuwuederhie](@Tobore Odjuwuederhie)
+- [Akpotobore Odjuwuederhie](@derhieakpos)
 - [Obadaki Emmanuel](@Emmanuel Obadaki)
 - [Contributor 2](GitHub Profile Link)
 - [Contributor 2](GitHub Profile Link)
