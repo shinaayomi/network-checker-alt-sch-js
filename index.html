@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telecoms carrier Detector</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telecoms carrier Detector</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="container">
-        <form action="">
-            <label for="number">Phone Number</label>
-            <input type="text" id="number" name="number" placeholder="Enter a valid phone number">
+  <nav>
+    <h1><span>NP</span>checker</h1>
+    <section class="link-holder">
+      <a href="/project">Project</a>
+      <a href="/document">Document</a>
+      <a href="/about">About</a>
+    </section>
+  </nav>
+  <div class="container">
+    <h2 class="country"></h2>
+    <p class="numberProvider"></p>
+    <p class="headWord"></p>
+    <section class="form-component">
+      <div class="input-holder">
+        <label for="number"> Phone Number </label>
+        <input type="tel" id="number" name="number" required pattern=" /^\+\d[2-4][0-9]{10}$/"
+          placeholder="+2348053000000" />
+      </div>
+      <p class="direction"></p>
+    </section>
+    <div class="carrier"></div>
+  </div>
+  <footer>
+    <p>
+      &COPY; Group I 2023. All Rights Reserved. powered by devCareer and
+      TheAltSchool @ <span> Tutor </span>
+    </p>
+  </footer>
 
-            <input type="submit" value="Check carrier">
-        </form>
-        <div class="carrier"></div>
-    </div>
-
-    <script src="index.js"></script>
+  <!-- <script type="module" src="index.js"></script> -->
+  <script type="module" src="index.js"></script>
 </body>
+
 </html>

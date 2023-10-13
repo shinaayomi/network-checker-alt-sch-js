@@ -1,24 +1,206 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body{
-    background-color: bisque;
+  }
+  
+  body {
+    background-color: #170e2a;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
-
-.container{
+    align-items: center;
+  }
+  
+  nav {
+    background: linear-gradient(270deg,
+        #903aff 0%,
+        #d434fe 56.42%,
+        #ff26b9 99.99%,
+        #fe34b9 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    margin: 1rem 0 2rem 0;
+    border-radius: 1rem;
+    /* padding: 0 4rem; */
+  }
+  
+  nav>h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 3rem;
+    margin-left: 4rem;
+  }
+  
+  nav>h1>span {
+    width: 64px;
+    height: 48px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  
+  .link-holder {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+    height: 3rem;
+    margin-right: 4rem;
+  }
+  
+  .link-holder>a {
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0 3rem;
+  }
+  
+  .container {
+    /* background-image: url(https://seeklogo.com/images/M/MTN-logo-459AAF9482-seeklogo.com.png); */
+    /* opacity: 50%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 80vw;
     height: 70vh;
     margin: auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 90px;
     border: 1px solid #bbb;
     border-radius: 5px;
     background-color: #f3f3f3;
-    
-}
+  }
+  
+  .carrier {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+  }
+  
+  .form-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .headWord {
+    color: #000;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .direction {
+    margin-top: 1rem;
+  }
+  
+  .numberProvider {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+  }
+  
+  .input-holder>input {
+    width: 20rem;
+    height: 3rem;
+    color: #000;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid #030;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-family: inherit;
+    outline: 0px;
+    cursor: pointer;
+  }
+  
+  .input-holder {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .input-holder>label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 4rem;
+    text-align: center;
+  }
+  
+  footer>p {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  
+  @media (max-width: 765px) {
+    nav {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    nav>h1 {
+      width: 50%;
+      margin: 0;
+    }
+  
+    .link-holder {
+      display: none;
+    }
+  
+    .input-holder>input {
+      width: 14rem;
+      height: 3rem;
+    }
+  
+    footer>p {
+      color: #fff;
+      font-size: 0.6rem;
+      width: 50%;
+    }
+  
+    .carrier {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
