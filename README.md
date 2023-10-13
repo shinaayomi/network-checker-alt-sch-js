@@ -1,7 +1,9 @@
 # Phone-Number-Detector
+
 A webapp that detects phone numbers in Nigeria.
 
 ## Table of Contents
+
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributors](#contributors)
@@ -21,7 +23,6 @@ Icons/Logos: Prepare icons or logos for each telecom carrier (MTN, GLO, Airtel, 
 
 To Identify the telecoms carrier from a phone number
 
-
 Scenario
 A user is filling a form in your web application and they are required to enter
 their phone number into a form field.
@@ -37,7 +38,7 @@ MTN icon/logo somewhere beside the form field)
 - [Kehinde Oyeronke Osoba](@Kenmillionaire)
 - [Akpotobore Odjuwuederhie](@derhieakpos)
 - [Obadaki Emmanuel](@Gudnuel)
-- [Contributor 2](GitHub Profile Link)
+- [Adebisi Abdullateef](@Shinaayomi)
 - [Contributor 2](GitHub Profile Link)
 - [Contributor 2](GitHub Profile Link)
 - [Contributor 2](GitHub Profile Link)
